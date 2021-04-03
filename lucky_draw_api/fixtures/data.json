@@ -1,0 +1,1960 @@
+[
+    {
+        "model":"admin.logentry",
+        "pk":1,
+        "fields":{
+            "action_time":"2021-04-03T15:22:17.736Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"1",
+            "object_repr":"Raffle 1",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":2,
+        "fields":{
+            "action_time":"2021-04-03T15:22:41.199Z",
+            "user":1,
+            "content_type":4,
+            "object_id":"2",
+            "object_repr":"Kartik",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":3,
+        "fields":{
+            "action_time":"2021-04-03T15:23:13.132Z",
+            "user":1,
+            "content_type":4,
+            "object_id":"2",
+            "object_repr":"Kartik",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Date joined\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":4,
+        "fields":{
+            "action_time":"2021-04-03T15:23:30.862Z",
+            "user":1,
+            "content_type":4,
+            "object_id":"3",
+            "object_repr":"Satyam",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":5,
+        "fields":{
+            "action_time":"2021-04-03T15:23:42.258Z",
+            "user":1,
+            "content_type":4,
+            "object_id":"3",
+            "object_repr":"Satyam",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Date joined\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":6,
+        "fields":{
+            "action_time":"2021-04-03T15:23:53.436Z",
+            "user":1,
+            "content_type":4,
+            "object_id":"2",
+            "object_repr":"Kartik",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Date joined\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":7,
+        "fields":{
+            "action_time":"2021-04-03T15:24:13.211Z",
+            "user":1,
+            "content_type":4,
+            "object_id":"4",
+            "object_repr":"Shobhit",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":8,
+        "fields":{
+            "action_time":"2021-04-03T15:24:22.869Z",
+            "user":1,
+            "content_type":4,
+            "object_id":"4",
+            "object_repr":"Shobhit",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Date joined\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":9,
+        "fields":{
+            "action_time":"2021-04-03T15:24:56.748Z",
+            "user":1,
+            "content_type":4,
+            "object_id":"5",
+            "object_repr":"Shashwat",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":10,
+        "fields":{
+            "action_time":"2021-04-03T15:25:08.892Z",
+            "user":1,
+            "content_type":4,
+            "object_id":"5",
+            "object_repr":"Shashwat",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Date joined\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":11,
+        "fields":{
+            "action_time":"2021-04-03T15:25:41.645Z",
+            "user":1,
+            "content_type":4,
+            "object_id":"6",
+            "object_repr":"Prateek",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":12,
+        "fields":{
+            "action_time":"2021-04-03T15:25:52.298Z",
+            "user":1,
+            "content_type":4,
+            "object_id":"6",
+            "object_repr":"Prateek",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Date joined\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":13,
+        "fields":{
+            "action_time":"2021-04-03T15:26:10.786Z",
+            "user":1,
+            "content_type":4,
+            "object_id":"7",
+            "object_repr":"Saurabh",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":14,
+        "fields":{
+            "action_time":"2021-04-03T15:26:18.660Z",
+            "user":1,
+            "content_type":4,
+            "object_id":"7",
+            "object_repr":"Saurabh",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Date joined\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":15,
+        "fields":{
+            "action_time":"2021-04-03T15:27:32.896Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"2",
+            "object_repr":"Raffle 2",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":16,
+        "fields":{
+            "action_time":"2021-04-03T15:27:40.402Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"1",
+            "object_repr":"Raffle 1",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Winner\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":17,
+        "fields":{
+            "action_time":"2021-04-03T15:28:33.795Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"3",
+            "object_repr":"Raffle 2",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":18,
+        "fields":{
+            "action_time":"2021-04-03T15:28:44.714Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"3",
+            "object_repr":"Raffle 3",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":19,
+        "fields":{
+            "action_time":"2021-04-03T15:29:33.049Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"4",
+            "object_repr":"Raffle 4",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":20,
+        "fields":{
+            "action_time":"2021-04-03T15:30:35.674Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"5",
+            "object_repr":"Raffle 5",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":21,
+        "fields":{
+            "action_time":"2021-04-03T15:31:20.501Z",
+            "user":1,
+            "content_type":7,
+            "object_id":"1",
+            "object_repr":"Shobhit - Raffle 1",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":22,
+        "fields":{
+            "action_time":"2021-04-03T15:31:32.777Z",
+            "user":1,
+            "content_type":7,
+            "object_id":"2",
+            "object_repr":"Shashwat - Raffle 1",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":23,
+        "fields":{
+            "action_time":"2021-04-03T15:31:45.023Z",
+            "user":1,
+            "content_type":7,
+            "object_id":"3",
+            "object_repr":"Saurabh - Raffle 1",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":24,
+        "fields":{
+            "action_time":"2021-04-03T15:31:59.083Z",
+            "user":1,
+            "content_type":7,
+            "object_id":"4",
+            "object_repr":"Satyam - Raffle 1",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":25,
+        "fields":{
+            "action_time":"2021-04-03T15:32:12.160Z",
+            "user":1,
+            "content_type":7,
+            "object_id":"5",
+            "object_repr":"Prateek - Raffle 1",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":26,
+        "fields":{
+            "action_time":"2021-04-03T15:32:30.619Z",
+            "user":1,
+            "content_type":7,
+            "object_id":"6",
+            "object_repr":"Kartik - Raffle 1",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":27,
+        "fields":{
+            "action_time":"2021-04-03T15:33:10.645Z",
+            "user":1,
+            "content_type":7,
+            "object_id":"7",
+            "object_repr":"Shobhit - Raffle 2",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":28,
+        "fields":{
+            "action_time":"2021-04-03T15:33:23.890Z",
+            "user":1,
+            "content_type":7,
+            "object_id":"8",
+            "object_repr":"Prateek - Raffle 2",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":29,
+        "fields":{
+            "action_time":"2021-04-03T15:33:38.284Z",
+            "user":1,
+            "content_type":7,
+            "object_id":"9",
+            "object_repr":"Kartik - Raffle 2",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":30,
+        "fields":{
+            "action_time":"2021-04-03T15:33:59.359Z",
+            "user":1,
+            "content_type":7,
+            "object_id":"10",
+            "object_repr":"Saurabh - Raffle 3",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":31,
+        "fields":{
+            "action_time":"2021-04-03T15:34:09.734Z",
+            "user":1,
+            "content_type":7,
+            "object_id":"11",
+            "object_repr":"Prateek - Raffle 3",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":32,
+        "fields":{
+            "action_time":"2021-04-03T15:34:29.484Z",
+            "user":1,
+            "content_type":7,
+            "object_id":"12",
+            "object_repr":"Satyam - Raffle 4",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":33,
+        "fields":{
+            "action_time":"2021-04-03T15:34:40.337Z",
+            "user":1,
+            "content_type":7,
+            "object_id":"13",
+            "object_repr":"Prateek - Raffle 4",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":34,
+        "fields":{
+            "action_time":"2021-04-03T15:35:01.981Z",
+            "user":1,
+            "content_type":7,
+            "object_id":"14",
+            "object_repr":"Kartik - Raffle 5",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":35,
+        "fields":{
+            "action_time":"2021-04-03T15:35:14.120Z",
+            "user":1,
+            "content_type":7,
+            "object_id":"15",
+            "object_repr":"Prateek - Raffle 5",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":36,
+        "fields":{
+            "action_time":"2021-04-03T15:35:25.372Z",
+            "user":1,
+            "content_type":7,
+            "object_id":"16",
+            "object_repr":"Satyam - Raffle 5",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":37,
+        "fields":{
+            "action_time":"2021-04-03T15:35:35.590Z",
+            "user":1,
+            "content_type":7,
+            "object_id":"17",
+            "object_repr":"Saurabh - Raffle 5",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":38,
+        "fields":{
+            "action_time":"2021-04-03T15:35:49.424Z",
+            "user":1,
+            "content_type":7,
+            "object_id":"18",
+            "object_repr":"Shashwat - Raffle 5",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":39,
+        "fields":{
+            "action_time":"2021-04-03T15:37:35.133Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"6",
+            "object_repr":"Raffle 6",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":40,
+        "fields":{
+            "action_time":"2021-04-03T15:38:00.412Z",
+            "user":1,
+            "content_type":7,
+            "object_id":"19",
+            "object_repr":"Kartik - Raffle 6",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":41,
+        "fields":{
+            "action_time":"2021-04-03T15:38:11.855Z",
+            "user":1,
+            "content_type":7,
+            "object_id":"20",
+            "object_repr":"Prateek - Raffle 6",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":42,
+        "fields":{
+            "action_time":"2021-04-03T15:39:18.587Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"7",
+            "object_repr":"Raffle 7",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":43,
+        "fields":{
+            "action_time":"2021-04-03T15:40:04.009Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"8",
+            "object_repr":"Raffle 8",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":44,
+        "fields":{
+            "action_time":"2021-04-03T15:40:57.959Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"9",
+            "object_repr":"Raffle 9",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":45,
+        "fields":{
+            "action_time":"2021-04-03T15:41:23.461Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"9",
+            "object_repr":"Raffle 9",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Opening datetime\", \"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":46,
+        "fields":{
+            "action_time":"2021-04-03T15:42:02.206Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"10",
+            "object_repr":"Raffle 10",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":47,
+        "fields":{
+            "action_time":"2021-04-03T15:42:40.915Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"10",
+            "object_repr":"Raffle 10",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Opening datetime\", \"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":48,
+        "fields":{
+            "action_time":"2021-04-03T15:43:20.106Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"11",
+            "object_repr":"Raffle 11",
+            "action_flag":1,
+            "change_message":"[{\"added\": {}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":49,
+        "fields":{
+            "action_time":"2021-04-03T15:45:17.884Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"11",
+            "object_repr":"Raffle 11",
+            "action_flag":3,
+            "change_message":""
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":50,
+        "fields":{
+            "action_time":"2021-04-03T18:00:48.571Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"1",
+            "object_repr":"Raffle 1",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Opening datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":51,
+        "fields":{
+            "action_time":"2021-04-03T18:00:57.267Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"2",
+            "object_repr":"Raffle 2",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Opening datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":52,
+        "fields":{
+            "action_time":"2021-04-03T18:01:03.938Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"3",
+            "object_repr":"Raffle 3",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Opening datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":53,
+        "fields":{
+            "action_time":"2021-04-03T18:01:10.534Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"4",
+            "object_repr":"Raffle 4",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Opening datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":54,
+        "fields":{
+            "action_time":"2021-04-03T18:01:16.431Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"5",
+            "object_repr":"Raffle 5",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Opening datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":55,
+        "fields":{
+            "action_time":"2021-04-03T18:01:23.113Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"6",
+            "object_repr":"Raffle 6",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Opening datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":56,
+        "fields":{
+            "action_time":"2021-04-03T18:01:27.931Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"5",
+            "object_repr":"Raffle 5",
+            "action_flag":2,
+            "change_message":"[]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":57,
+        "fields":{
+            "action_time":"2021-04-03T18:01:33.512Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"7",
+            "object_repr":"Raffle 7",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Opening datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":58,
+        "fields":{
+            "action_time":"2021-04-03T18:01:39.575Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"8",
+            "object_repr":"Raffle 8",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Opening datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":59,
+        "fields":{
+            "action_time":"2021-04-03T18:01:44.734Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"9",
+            "object_repr":"Raffle 9",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Opening datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":60,
+        "fields":{
+            "action_time":"2021-04-03T18:01:50.596Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"10",
+            "object_repr":"Raffle 10",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Opening datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":61,
+        "fields":{
+            "action_time":"2021-04-03T18:02:10.994Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"10",
+            "object_repr":"Raffle 10",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":62,
+        "fields":{
+            "action_time":"2021-04-03T18:02:17.063Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"9",
+            "object_repr":"Raffle 9",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":63,
+        "fields":{
+            "action_time":"2021-04-03T18:02:22.982Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"8",
+            "object_repr":"Raffle 8",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":64,
+        "fields":{
+            "action_time":"2021-04-03T18:02:28.275Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"7",
+            "object_repr":"Raffle 7",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":65,
+        "fields":{
+            "action_time":"2021-04-03T18:02:33.249Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"6",
+            "object_repr":"Raffle 6",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":66,
+        "fields":{
+            "action_time":"2021-04-03T18:02:38.259Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"5",
+            "object_repr":"Raffle 5",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":67,
+        "fields":{
+            "action_time":"2021-04-03T18:02:43.485Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"4",
+            "object_repr":"Raffle 4",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":68,
+        "fields":{
+            "action_time":"2021-04-03T18:02:47.565Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"4",
+            "object_repr":"Raffle 4",
+            "action_flag":2,
+            "change_message":"[]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":69,
+        "fields":{
+            "action_time":"2021-04-03T18:02:53.260Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"3",
+            "object_repr":"Raffle 3",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":70,
+        "fields":{
+            "action_time":"2021-04-03T18:02:59.186Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"2",
+            "object_repr":"Raffle 2",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":71,
+        "fields":{
+            "action_time":"2021-04-03T18:03:05.038Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"1",
+            "object_repr":"Raffle 1",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":72,
+        "fields":{
+            "action_time":"2021-04-03T18:03:32.582Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"1",
+            "object_repr":"Raffle 1",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":73,
+        "fields":{
+            "action_time":"2021-04-03T18:03:41.202Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"2",
+            "object_repr":"Raffle 2",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":74,
+        "fields":{
+            "action_time":"2021-04-03T18:03:50.549Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"3",
+            "object_repr":"Raffle 3",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":75,
+        "fields":{
+            "action_time":"2021-04-03T18:03:57.400Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"4",
+            "object_repr":"Raffle 4",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":76,
+        "fields":{
+            "action_time":"2021-04-03T18:04:03.526Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"5",
+            "object_repr":"Raffle 5",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":77,
+        "fields":{
+            "action_time":"2021-04-03T18:04:07.378Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"5",
+            "object_repr":"Raffle 5",
+            "action_flag":2,
+            "change_message":"[]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":78,
+        "fields":{
+            "action_time":"2021-04-03T18:04:13.556Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"6",
+            "object_repr":"Raffle 6",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":79,
+        "fields":{
+            "action_time":"2021-04-03T18:04:20.333Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"6",
+            "object_repr":"Raffle 6",
+            "action_flag":2,
+            "change_message":"[]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":80,
+        "fields":{
+            "action_time":"2021-04-03T18:04:26.284Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"7",
+            "object_repr":"Raffle 7",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":81,
+        "fields":{
+            "action_time":"2021-04-03T18:04:33.619Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"8",
+            "object_repr":"Raffle 8",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":82,
+        "fields":{
+            "action_time":"2021-04-03T18:04:40.412Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"9",
+            "object_repr":"Raffle 9",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":83,
+        "fields":{
+            "action_time":"2021-04-03T18:04:48.282Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"10",
+            "object_repr":"Raffle 10",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":84,
+        "fields":{
+            "action_time":"2021-04-03T18:48:26.954Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"8",
+            "object_repr":"Raffle 8",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Opening datetime\", \"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":85,
+        "fields":{
+            "action_time":"2021-04-03T18:57:40.251Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"8",
+            "object_repr":"Raffle 8",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"admin.logentry",
+        "pk":86,
+        "fields":{
+            "action_time":"2021-04-03T19:01:39.753Z",
+            "user":1,
+            "content_type":8,
+            "object_id":"8",
+            "object_repr":"Raffle 8",
+            "action_flag":2,
+            "change_message":"[{\"changed\": {\"fields\": [\"Closing datetime\"]}}]"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":1,
+        "fields":{
+            "name":"Can add log entry",
+            "content_type":1,
+            "codename":"add_logentry"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":2,
+        "fields":{
+            "name":"Can change log entry",
+            "content_type":1,
+            "codename":"change_logentry"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":3,
+        "fields":{
+            "name":"Can delete log entry",
+            "content_type":1,
+            "codename":"delete_logentry"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":4,
+        "fields":{
+            "name":"Can view log entry",
+            "content_type":1,
+            "codename":"view_logentry"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":5,
+        "fields":{
+            "name":"Can add permission",
+            "content_type":2,
+            "codename":"add_permission"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":6,
+        "fields":{
+            "name":"Can change permission",
+            "content_type":2,
+            "codename":"change_permission"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":7,
+        "fields":{
+            "name":"Can delete permission",
+            "content_type":2,
+            "codename":"delete_permission"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":8,
+        "fields":{
+            "name":"Can view permission",
+            "content_type":2,
+            "codename":"view_permission"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":9,
+        "fields":{
+            "name":"Can add group",
+            "content_type":3,
+            "codename":"add_group"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":10,
+        "fields":{
+            "name":"Can change group",
+            "content_type":3,
+            "codename":"change_group"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":11,
+        "fields":{
+            "name":"Can delete group",
+            "content_type":3,
+            "codename":"delete_group"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":12,
+        "fields":{
+            "name":"Can view group",
+            "content_type":3,
+            "codename":"view_group"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":13,
+        "fields":{
+            "name":"Can add user",
+            "content_type":4,
+            "codename":"add_user"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":14,
+        "fields":{
+            "name":"Can change user",
+            "content_type":4,
+            "codename":"change_user"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":15,
+        "fields":{
+            "name":"Can delete user",
+            "content_type":4,
+            "codename":"delete_user"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":16,
+        "fields":{
+            "name":"Can view user",
+            "content_type":4,
+            "codename":"view_user"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":17,
+        "fields":{
+            "name":"Can add content type",
+            "content_type":5,
+            "codename":"add_contenttype"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":18,
+        "fields":{
+            "name":"Can change content type",
+            "content_type":5,
+            "codename":"change_contenttype"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":19,
+        "fields":{
+            "name":"Can delete content type",
+            "content_type":5,
+            "codename":"delete_contenttype"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":20,
+        "fields":{
+            "name":"Can view content type",
+            "content_type":5,
+            "codename":"view_contenttype"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":21,
+        "fields":{
+            "name":"Can add session",
+            "content_type":6,
+            "codename":"add_session"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":22,
+        "fields":{
+            "name":"Can change session",
+            "content_type":6,
+            "codename":"change_session"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":23,
+        "fields":{
+            "name":"Can delete session",
+            "content_type":6,
+            "codename":"delete_session"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":24,
+        "fields":{
+            "name":"Can view session",
+            "content_type":6,
+            "codename":"view_session"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":25,
+        "fields":{
+            "name":"Can add raffle ticket",
+            "content_type":7,
+            "codename":"add_raffleticket"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":26,
+        "fields":{
+            "name":"Can change raffle ticket",
+            "content_type":7,
+            "codename":"change_raffleticket"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":27,
+        "fields":{
+            "name":"Can delete raffle ticket",
+            "content_type":7,
+            "codename":"delete_raffleticket"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":28,
+        "fields":{
+            "name":"Can view raffle ticket",
+            "content_type":7,
+            "codename":"view_raffleticket"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":29,
+        "fields":{
+            "name":"Can add lucky draw raffle",
+            "content_type":8,
+            "codename":"add_luckydrawraffle"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":30,
+        "fields":{
+            "name":"Can change lucky draw raffle",
+            "content_type":8,
+            "codename":"change_luckydrawraffle"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":31,
+        "fields":{
+            "name":"Can delete lucky draw raffle",
+            "content_type":8,
+            "codename":"delete_luckydrawraffle"
+        }
+    },
+    {
+        "model":"auth.permission",
+        "pk":32,
+        "fields":{
+            "name":"Can view lucky draw raffle",
+            "content_type":8,
+            "codename":"view_luckydrawraffle"
+        }
+    },
+    {
+        "model":"auth.user",
+        "pk":1,
+        "fields":{
+            "password":"pbkdf2_sha256$216000$yI0bhHJKYyGl$B5TSEEN0+tucmQ8uDjwGHKPi4bYpbWetxMswNPvnPnQ=",
+            "last_login":"2021-04-03T15:18:34.907Z",
+            "is_superuser":true,
+            "username":"admin",
+            "first_name":"",
+            "last_name":"",
+            "email":"admin@admin.com",
+            "is_staff":true,
+            "is_active":true,
+            "date_joined":"2021-04-03T15:18:16.117Z",
+            "groups":[
+                
+            ],
+            "user_permissions":[
+                
+            ]
+        }
+    },
+    {
+        "model":"auth.user",
+        "pk":2,
+        "fields":{
+            "password":"pbkdf2_sha256$216000$xcgpE1Gnh4Sq$MNB4DuYTpWWSBMRiLlQu1Zl+nLdll3XuNvLhQvywSvY=",
+            "last_login":null,
+            "is_superuser":false,
+            "username":"Kartik",
+            "first_name":"",
+            "last_name":"",
+            "email":"",
+            "is_staff":false,
+            "is_active":true,
+            "date_joined":"2021-03-20T15:22:41Z",
+            "groups":[
+                
+            ],
+            "user_permissions":[
+                
+            ]
+        }
+    },
+    {
+        "model":"auth.user",
+        "pk":3,
+        "fields":{
+            "password":"pbkdf2_sha256$216000$LTeypA8kuVld$/+MyZ5CVn4Y1QGGPN7/z0knmYVSRFsqBNM/yTh1oCSk=",
+            "last_login":null,
+            "is_superuser":false,
+            "username":"Satyam",
+            "first_name":"",
+            "last_name":"",
+            "email":"",
+            "is_staff":false,
+            "is_active":true,
+            "date_joined":"2021-03-20T15:23:30Z",
+            "groups":[
+                
+            ],
+            "user_permissions":[
+                
+            ]
+        }
+    },
+    {
+        "model":"auth.user",
+        "pk":4,
+        "fields":{
+            "password":"pbkdf2_sha256$216000$Ob5EMgYbePr5$nnXMZGogTgzMnFEYWJ4md+sjdDNNwq3Ehzekm6A9lqY=",
+            "last_login":null,
+            "is_superuser":false,
+            "username":"Shobhit",
+            "first_name":"",
+            "last_name":"",
+            "email":"",
+            "is_staff":false,
+            "is_active":true,
+            "date_joined":"2021-03-20T15:24:13Z",
+            "groups":[
+                
+            ],
+            "user_permissions":[
+                
+            ]
+        }
+    },
+    {
+        "model":"auth.user",
+        "pk":5,
+        "fields":{
+            "password":"pbkdf2_sha256$216000$dQ2orlsbzVU6$ct/MJw8AZmLCayjGXmlUfAX1nb1r9k7x5ijhaqfsb1c=",
+            "last_login":null,
+            "is_superuser":false,
+            "username":"Shashwat",
+            "first_name":"",
+            "last_name":"",
+            "email":"",
+            "is_staff":false,
+            "is_active":true,
+            "date_joined":"2021-03-20T15:24:56Z",
+            "groups":[
+                
+            ],
+            "user_permissions":[
+                
+            ]
+        }
+    },
+    {
+        "model":"auth.user",
+        "pk":6,
+        "fields":{
+            "password":"pbkdf2_sha256$216000$2lwFfoGWNgeI$B/ZNXic9iAn6iu5CA9l5+LN0VvF//jjRzawkMYNegzE=",
+            "last_login":null,
+            "is_superuser":false,
+            "username":"Prateek",
+            "first_name":"",
+            "last_name":"",
+            "email":"",
+            "is_staff":false,
+            "is_active":true,
+            "date_joined":"2021-03-20T15:25:41Z",
+            "groups":[
+                
+            ],
+            "user_permissions":[
+                
+            ]
+        }
+    },
+    {
+        "model":"auth.user",
+        "pk":7,
+        "fields":{
+            "password":"pbkdf2_sha256$216000$uvlihvNxMB9r$ROwfdUI2Z93HRiZtGgv9d2GbQc2rF1D205g+uXNw/NU=",
+            "last_login":null,
+            "is_superuser":false,
+            "username":"Saurabh",
+            "first_name":"",
+            "last_name":"",
+            "email":"",
+            "is_staff":false,
+            "is_active":true,
+            "date_joined":"2021-03-20T15:26:10Z",
+            "groups":[
+                
+            ],
+            "user_permissions":[
+                
+            ]
+        }
+    },
+    {
+        "model":"contenttypes.contenttype",
+        "id":1,
+        "fields":{
+            "app_label":"admin",
+            "model":"logentry"
+        }
+    },
+    {
+        "model":"contenttypes.contenttype",
+        "id":2,
+        "fields":{
+            "app_label":"auth",
+            "model":"permission"
+        }
+    },
+    {
+        "model":"contenttypes.contenttype",
+        "id":3,
+        "fields":{
+            "app_label":"auth",
+            "model":"group"
+        }
+    },
+    {
+        "model":"contenttypes.contenttype",
+        "id":4,
+        "fields":{
+            "app_label":"auth",
+            "model":"user"
+        }
+    },
+    {
+        "model":"contenttypes.contenttype",
+        "id":5,
+        "fields":{
+            "app_label":"contenttypes",
+            "model":"contenttype"
+        }
+    },
+    {
+        "model":"contenttypes.contenttype",
+        "id":6,
+        "fields":{
+            "app_label":"sessions",
+            "model":"session"
+        }
+    },
+    {
+        "model":"contenttypes.contenttype",
+        "id":7,
+        "fields":{
+            "app_label":"lucky_draw_api",
+            "model":"raffleticket"
+        }
+    },
+    {
+        "model":"contenttypes.contenttype",
+        "id":8,
+        "fields":{
+            "app_label":"lucky_draw_api",
+            "model":"luckydrawraffle"
+        }
+    },
+    {
+        "model":"sessions.session",
+        "pk":"jolghm1h3acrdaaj3a15kjumauyh283q",
+        "fields":{
+            "session_data":".eJxVjDsOAiEUAO9CbQjf98DSfs-wAR7IqoFkP5Xx7oZkC21nJvNmczj2Oh9bXueF2JVJdvllMaRnbkPQI7R756m3fV0iHwk_7canTvl1O9u_QQ1bHduICYiUlcYr5w0KBEXosgARRBFB-wSRLBqJRRo0VotkXSIABK0L-3wBtfg2jQ:1lSi2k:UWbWuLu5498EPBVyM9KZt0Ki07xGus00ADaf_RB_JZ4",
+            "expire_date":"2021-04-17T15:18:34.914Z"
+        }
+    },
+    {
+        "model":"lucky_draw_api.luckydrawraffle",
+        "pk":1,
+        "fields":{
+            "name":"Raffle 1",
+            "prize":"Car",
+            "opening_datetime":"2021-03-29T02:30:00Z",
+            "closing_datetime":"2021-03-29T14:30:00Z",
+            "winner":5
+        }
+    },
+    {
+        "model":"lucky_draw_api.luckydrawraffle",
+        "pk":2,
+        "fields":{
+            "name":"Raffle 2",
+            "prize":"Washing Machine",
+            "opening_datetime":"2021-03-30T02:30:00Z",
+            "closing_datetime":"2021-03-30T14:30:00Z",
+            "winner":4
+        }
+    },
+    {
+        "model":"lucky_draw_api.luckydrawraffle",
+        "pk":3,
+        "fields":{
+            "name":"Raffle 3",
+            "prize":"Cricket kit",
+            "opening_datetime":"2021-03-31T02:30:00Z",
+            "closing_datetime":"2021-03-31T14:30:00Z",
+            "winner":7
+        }
+    },
+    {
+        "model":"lucky_draw_api.luckydrawraffle",
+        "pk":4,
+        "fields":{
+            "name":"Raffle 4",
+            "prize":"Laptop",
+            "opening_datetime":"2021-04-01T02:30:00Z",
+            "closing_datetime":"2021-03-01T14:30:00Z",
+            "winner":3
+        }
+    },
+    {
+        "model":"lucky_draw_api.luckydrawraffle",
+        "pk":5,
+        "fields":{
+            "name":"Raffle 5",
+            "prize":"Mobile",
+            "opening_datetime":"2021-04-02T02:30:00Z",
+            "closing_datetime":"2021-04-02T14:30:00Z",
+            "winner":6
+        }
+    },
+    {
+        "model":"lucky_draw_api.luckydrawraffle",
+        "pk":6,
+        "fields":{
+            "name":"Raffle 6",
+            "prize":"Car",
+            "opening_datetime":"2021-04-03T02:30:00Z",
+            "closing_datetime":"2021-04-03T14:30:00Z",
+            "winner":6
+        }
+    },
+    {
+        "model":"lucky_draw_api.luckydrawraffle",
+        "pk":7,
+        "fields":{
+            "name":"Raffle 7",
+            "prize":"Mobile",
+            "opening_datetime":"2021-04-04T02:30:00Z",
+            "closing_datetime":"2021-04-04T14:30:00Z",
+            "winner":null
+        }
+    },
+    {
+        "model":"lucky_draw_api.luckydrawraffle",
+        "pk":8,
+        "fields":{
+            "name":"Raffle 8",
+            "prize":"Laptop",
+            "opening_datetime":"2021-04-03T18:48:21Z",
+            "closing_datetime":"2021-04-03T19:20:32Z",
+            "winner":null
+        }
+    },
+    {
+        "model":"lucky_draw_api.luckydrawraffle",
+        "pk":9,
+        "fields":{
+            "name":"Raffle 9",
+            "prize":"House",
+            "opening_datetime":"2021-04-06T02:30:00Z",
+            "closing_datetime":"2021-04-06T14:30:00Z",
+            "winner":null
+        }
+    },
+    {
+        "model":"lucky_draw_api.luckydrawraffle",
+        "pk":10,
+        "fields":{
+            "name":"Raffle 10",
+            "prize":"Watch",
+            "opening_datetime":"2021-04-07T02:30:00Z",
+            "closing_datetime":"2021-04-07T14:30:00Z",
+            "winner":null
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":1,
+        "fields":{
+            "raffle":1,
+            "player":4,
+            "used":true
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":2,
+        "fields":{
+            "raffle":1,
+            "player":5,
+            "used":true
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":3,
+        "fields":{
+            "raffle":1,
+            "player":7,
+            "used":true
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":4,
+        "fields":{
+            "raffle":1,
+            "player":3,
+            "used":true
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":5,
+        "fields":{
+            "raffle":1,
+            "player":6,
+            "used":true
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":6,
+        "fields":{
+            "raffle":1,
+            "player":2,
+            "used":true
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":7,
+        "fields":{
+            "raffle":2,
+            "player":4,
+            "used":true
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":8,
+        "fields":{
+            "raffle":2,
+            "player":6,
+            "used":true
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":9,
+        "fields":{
+            "raffle":2,
+            "player":2,
+            "used":true
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":10,
+        "fields":{
+            "raffle":3,
+            "player":7,
+            "used":true
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":11,
+        "fields":{
+            "raffle":3,
+            "player":6,
+            "used":true
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":12,
+        "fields":{
+            "raffle":4,
+            "player":3,
+            "used":true
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":13,
+        "fields":{
+            "raffle":4,
+            "player":6,
+            "used":true
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":14,
+        "fields":{
+            "raffle":5,
+            "player":2,
+            "used":true
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":15,
+        "fields":{
+            "raffle":5,
+            "player":6,
+            "used":true
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":16,
+        "fields":{
+            "raffle":8,
+            "player":3,
+            "used":true
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":17,
+        "fields":{
+            "raffle":5,
+            "player":7,
+            "used":true
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":18,
+        "fields":{
+            "raffle":5,
+            "player":5,
+            "used":true
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":19,
+        "fields":{
+            "raffle":8,
+            "player":2,
+            "used":true
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":20,
+        "fields":{
+            "raffle":6,
+            "player":6,
+            "used":true
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":21,
+        "fields":{
+            "raffle":null,
+            "player":2,
+            "used":false
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":22,
+        "fields":{
+            "raffle":null,
+            "player":2,
+            "used":false
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":23,
+        "fields":{
+            "raffle":null,
+            "player":3,
+            "used":false
+        }
+    },
+    {
+        "model":"lucky_draw_api.raffleticket",
+        "pk":24,
+        "fields":{
+            "raffle":null,
+            "player":1,
+            "used":false
+        }
+    }
+]
