@@ -24,3 +24,21 @@ class LuckyDrawRaffle(models.Model):
 
     def __str__(self):
         return self.name
+
+class RaffleTicket(models.Model):
+    """
+    Represents a Raffle Ticket
+    """
+
+    # Raffle that a ticket gets registered with.
+    raffle = models.ForeignKey("LuckyDrawRaffle", on_delete=models.CASCADE, blank=True, null=True)
+    # Player who gets the tickey.
+    player = models.ForeignKey("auth.User", on_delete=models.CASCADE)
+    # Whether a tickey has been used to participate in a raffle.
+    used = models.BooleanField(default=False)
+
+    def __str__(self):
+        return "{} - {}".format(self.player.username, self.raffle)
+
+    class Meta:
+        unique_together = (("raffle", "player"),)
