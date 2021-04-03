@@ -1,4 +1,5 @@
 from django.db import models
+from lucky_draw_api.managers import UpcomingRaffleManager
 
 class LuckyDrawRaffle(models.Model):
     """
@@ -18,6 +19,9 @@ class LuckyDrawRaffle(models.Model):
     )
 
     winner = models.ForeignKey("auth.User", on_delete=models.DO_NOTHING, null=True, blank=True)
+
+    objects = models.Manager()
+    upcoming_raffles = UpcomingRaffleManager()
 
     class Meta:
         get_latest_by = "closing_datetime"
