@@ -1,13 +1,13 @@
 from .models import RaffleTicket, LuckyDrawRaffle
-from .serializers import RaffleSerializer
+from .serializers import RaffleSerializer, RaffleTicketSerializer
 from .utils import parse_datetime
 
 from django.shortcuts import get_object_or_404
 from rest_framework import request
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from django.utils.timezone import now
+from rest_framework.permissions import IsAuthenticatedOrReadOnly, IsAuthenticated
 
 class GetTicketView(APIView):
 
@@ -25,6 +25,28 @@ class GetTicketView(APIView):
         new_ticket.save()
 
         return Response({"result": "successful", "ticket_id": new_ticket.id})
+
+class GetOwnTickets(APIView):
+    """
+    Returns the unused tickets a user has.
+    """
+
+    # Allowed for an authenticated user only.
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request, format=None):
+
+        # Retrieves all the tickets with the assigned player as the
+        # requesting user.
+        queryset = RaffleTicket.objects.filter(player=request.user.id, used=False)
+        data = []
+
+        # Serializes all the RaffleTicket objects.
+        for ticket in queryset:
+            serializer = RaffleTicketSerializer(ticket)
+            data.append(serializer.data)
+
+        return Response(data)
 
 class LuckyDrawView(APIView):
     permission_classes = [IsAuthenticatedOrReadOnly]
