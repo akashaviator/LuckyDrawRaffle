@@ -145,3 +145,38 @@ class AnnounceWinnerView(APIView):
         return Response({"result": "successful",
                          "msg": "Winner for the previous raffle has been declared.", "username": raffle.winner.username,
                          "ticket_id": winner_ticket.id})
+
+class ListWinnersView(APIView):
+    """
+    Returns data about all the previous raffles and their winners.
+    """
+
+    permission_classes = [IsAuthenticatedOrReadOnly]
+    def get(self, request, format=None):
+
+        # Retrieves all the closed raffles.
+        now_ts = now()
+        closed_raffles = LuckyDrawRaffle.objects.filter(closing_datetime__lte=now_ts).order_by('-closing_datetime')
+        response = []
+
+        if closed_raffles is None:
+            data = {}
+            data["result"] = "error"
+            data["msg"] = "No previous raffles found."
+            return Response(response.append(data))
+
+        for raffle in closed_raffles:
+            data = {}
+            data["raffle_name"] = raffle.name
+            data["prize"] = raffle.prize
+            data["opening_datetime"] = parse_datetime(raffle.opening_datetime.__str__())
+            data["closing_datetime"] = parse_datetime(raffle.closing_datetime.__str__())
+
+            if raffle.winner is None:
+                data["winner"] = "Winner wasn't declared."
+            else:
+                data["winner"] = raffle.winner.username
+
+            response.append(data)
+
+        return Response(response)
