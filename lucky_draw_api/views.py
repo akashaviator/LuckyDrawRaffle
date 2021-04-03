@@ -6,8 +6,10 @@ from django.shortcuts import get_object_or_404
 from rest_framework import request
 from rest_framework.views import APIView
 from rest_framework.response import Response
+from rest_framework.permissions import IsAuthenticatedOrReadOnly, IsAdminUser, \
+    IsAuthenticated
 from django.utils.timezone import now
-from rest_framework.permissions import IsAuthenticatedOrReadOnly, IsAuthenticated
+import random
 
 class GetTicketView(APIView):
 
@@ -107,3 +109,39 @@ class LuckyDrawView(APIView):
         ticket.used = True
         ticket.save()
         return Response({"result": "Successful", "msg": "You have participated in the ongoing Lucky Draw raffle."})
+
+class AnnounceWinnerView(APIView):
+
+    # Allow requests by an authenticated user only.
+    permission_classes = [IsAdminUser]
+
+    def get(self, request, format=None):
+        """
+        Declares winner for the most recently closed raffle if not declared yet.
+        """
+
+        # Gets the most recently concluded raffle.
+        now_ts = now()
+        raffle = LuckyDrawRaffle.objects.filter(closing_datetime__lte=now_ts).latest()
+
+        if raffle is None:
+            return Response({"result": "error", "msg": "Past raffles not found."})
+
+        if raffle.winner is not None:
+            return Response({"result": "error", "msg": "Winner for the previous raffle has been declared already."})
+
+        # Retrieves all the RaffleTicket objects registered with the raffle.
+        registered_raffle_tickets = raffle.raffleticket_set.all()
+
+        if registered_raffle_tickets.count() == 0:
+            return Response({"result": "error", "msg": "No user participated in the previous raffle."})
+    
+        # Choses a winner ticket randomly assigns the player to
+        # raffle winner.
+        winner_ticket = random.choice(registered_raffle_tickets)
+        raffle.winner = winner_ticket.player
+        raffle.save()
+
+        return Response({"result": "successful",
+                         "msg": "Winner for the previous raffle has been declared.", "username": raffle.winner.username,
+                         "ticket_id": winner_ticket.id})
