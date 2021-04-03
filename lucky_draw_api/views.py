@@ -2,10 +2,12 @@ from .models import RaffleTicket, LuckyDrawRaffle
 from .serializers import RaffleSerializer
 from .utils import parse_datetime
 
+from django.shortcuts import get_object_or_404
 from rest_framework import request
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
+from django.utils.timezone import now
 
 class GetTicketView(APIView):
 
@@ -42,3 +44,44 @@ class LuckyDrawView(APIView):
         raffle["closing_datetime"] = parse_datetime(raffle["closing_datetime"])
 
         return Response(raffle)
+
+    def post(self, request, format=None):
+        """
+        For participating in a running raffle with a ticket id provied
+        in the request body.
+        """
+
+        now_ts = now()
+        try:
+            raffle = LuckyDrawRaffle.upcoming_raffles.filter(
+                opening_datetime__lte=now_ts,
+            ).earliest()
+        except LuckyDrawRaffle.DoesNotExist:
+            return Response({"result": "Error", "msg": "No ongoing raffle found."})
+
+        # Gets the ticket_id from the request body and retrieves the ticket object.
+        ticket_id = request.data["ticket_id"]
+        try:
+            ticket = get_object_or_404(RaffleTicket, id=ticket_id)
+        except RaffleTicket.DoesNotExist:
+            return Response({"result": "error", "msg": "No Ticket with the given ID exists."})
+
+        if ticket.used:
+            return Response({"result": "error", "msg": "Ticket has been used already."})
+
+        # Checks whether the user has participated in the raffle already.
+        used_tickets = request.user.raffleticket_set.filter(used=True)
+
+        # Checks whether the raffle id in any of the users' used tickets,
+        # matches the raffle id of the ongoing raffle.
+        if used_tickets is not None:
+            for ticket in used_tickets:
+                if ticket.raffle.id == raffle.id:
+                    return Response({"result": "error", "msg": "User cannot participate again."})
+
+        # If the user hasn't participated already, assign the raffle
+        # to the ticket and return success response.
+        ticket.raffle = raffle
+        ticket.used = True
+        ticket.save()
+        return Response({"result": "Successful", "msg": "You have participated in the ongoing Lucky Draw raffle."})
